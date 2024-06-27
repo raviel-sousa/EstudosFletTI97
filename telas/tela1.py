@@ -10,6 +10,8 @@ def main(page:ft.Page):
     page.add(tf_nome)
     page.add(btn_cadastrar)
 
+
+# sei la modifiquei isso 
     #eventos - ex: ao clicar botões
     def enviarNome(e):
         print(tf_nome.value) #para mostrar o que a pessoa digitou no Run do python
